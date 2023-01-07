@@ -1,0 +1,21 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Synthetic-Dev/TypeScriptToLua/master/tsconfig-schema.json",
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["ESNext"],
+		"moduleResolution": "node",
+		"strict": false,
+		"types": [
+			"@jackmacwindows/lua-types/cc",
+			"@ccts/craftos-types",
+			"@ccts/cc-types"
+		]
+	},
+	"tstl": {
+		"luaTarget": "CC",
+		"luaLibImport": "require",
+		"luaBundle": "out/main.lua",
+		"luaBundleEntry": "src/main.ts"
+	},
+	"include": ["node_modules/@ccts/**/*.ts", "src/**/*.ts"]
+}

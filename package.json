@@ -1,0 +1,25 @@
+{
+  "name": "cc-tstl-template",
+  "version": "1.0.0",
+  "description": "Template project for ComputerCraft programs written in TypeScript.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch"
+  },
+  "contributors": [
+    "JackMacWindows"
+  ],
+  "author": "SyntheticDev",
+  "license": "MIT",
+  "devDependencies": {
+    "@ccts/cc-types": "^1.0.0",
+    "@ccts/craftos-types": "^1.1.1",
+    "@jackmacwindows/lua-types": "^2.13.1",
+    "@jackmacwindows/typescript-to-lua": "^1.10.1",
+    "typescript": "^4.8.0"
+  },
+  "dependencies": {
+    "@ccts/events": "^1.0.1"
+  }
+}
