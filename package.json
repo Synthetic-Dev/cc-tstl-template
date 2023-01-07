@@ -20,6 +20,6 @@
     "typescript": "^4.8.0"
   },
   "dependencies": {
-    "@ccts/events": "^1.0.3"
+    "@ccts/events": "^1.0.4"
   }
 }
